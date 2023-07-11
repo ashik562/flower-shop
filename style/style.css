@@ -197,8 +197,23 @@ main .offer{
 
 
 
+.footer-column{
+    background-color: black;
+}
+.foot{
+    text-align: center;
+}
+.footer-description{
+    text-align: center;
+    color: #fff;
+}
+.shop{
+    color: #fff;
+}
+.footer-title-color{
 
-
+    color:#E55473
+}
 
 .copyright{
 
@@ -208,11 +223,6 @@ main .offer{
 
 
 
-
-.footer-title-color{
-
-    color:#E55473
-}
 
 
 
