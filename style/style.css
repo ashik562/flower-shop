@@ -107,17 +107,21 @@ main{
 }
 
 /* section */
-.offer{ 
-    
+main .offer{
+    display: flex;
+    gap: 100px;
+    background-color: #E554731A;
+    /* background: #FFF8F3; */
+    margin-top: 100px;
     margin-top: 80px;
     display: flex;
     text-align: center;
-    background-color: #E554731A;
-    /* background-image: url('../image/pngwing\ 8.png'); */
     background-repeat: no-repeat;
     background-position: bottom right;
     background-position: bottom right, top left;
+
 }
+
 #fuldani{
     width: 318px;
     height: 320px;
@@ -131,16 +135,61 @@ main{
     margin: 0px auto;
     max-width: 500px;
     line-height: 25px
-    border-radius: 8px;
+    border: radius 8px;
     background color: #E554730D;
 }
 
+/* instagram */
+
+.insta{
+    text-align: center;
+}
+.insta-paragraph{
+    text-align: center;
+    font-size: normal;
+    color: #272727;
+    font-size: 14px;
+    padding: 10px 5px;
+    margin: 0px auto;
+    width:500px;
+    line-height: 25px
+}
+.instagram{
+    display: flex;
+   margin: 7px;
+}
 
 
+.getoffer{
+    
+    background-color: #fff;
+    background-image: url('../image/Rectangle\ 9.png');
+    width: 1400px;
+    height: 449px;
+
+}
+
+.hh{
+    display: block;
+    text-align: center;
+}
 
 
+.pp{
+    display: block;
+    text-align: center;
+}
 
-
+.contact input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    color: #757575;
+    border-radius: 10px;
+    background: #FFF;
+    border: 0;
+    width: 20%;
+}
 
 
 
